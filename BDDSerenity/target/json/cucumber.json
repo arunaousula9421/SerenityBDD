@@ -1,0 +1,72 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 14,
+        "name": "Success Login",
+        "description": "",
+        "id": "login-into-the-mail.com;success-login;valid-data;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 180067413,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I use Valid \"serenitytraining\" and Valid \"Password01\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "serenitytraining",
+                  "offset": 13
+                },
+                {
+                  "val": "Password01",
+                  "offset": 42
+                }
+              ],
+              "location": "LoginStepDef.i_use_Valid_and_Valid(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 75457,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I perform Login Action",
+            "match": {
+              "location": "LoginStepDef.i_perform_Login_Action()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1606320,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should see my Account Mails.",
+            "match": {
+              "location": "LoginStepDef.i_should_see_my_Account_Mails()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login into the Mail.com",
+    "description": "As a Valid User\r\nI want to login to the mail\r\nSo that I can check my mails.",
+    "id": "login-into-the-mail.com",
+    "keyword": "Feature",
+    "uri": "Login/LoginScenarios.feature"
+  }
+]
