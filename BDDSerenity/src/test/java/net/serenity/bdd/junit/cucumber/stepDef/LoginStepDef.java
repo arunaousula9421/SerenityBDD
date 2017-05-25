@@ -23,6 +23,7 @@ public class LoginStepDef extends GenericDeclarationClass {
         // Write code here that turns the phrase above into concrete actions
         //throw new PendingException();
         dp.setAll(arg1, arg2);
+        System.out.println("User & pwd:" + dp.getUserName() +dp.getPassword());
     }
 
     @When("^I perform Login Action$")
@@ -30,6 +31,7 @@ public class LoginStepDef extends GenericDeclarationClass {
         // Write code here that turns the phrase above into concrete actions
         //throw new PendingException();
         LT_steps.openHomePage();
+        LT_steps.performLogin(dp);
 
     }
 

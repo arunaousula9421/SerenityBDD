@@ -11,4 +11,4 @@ Feature: Login into the Mail.com
 
     Examples: Valid Data
     |userName|password|
-    |serenitytraining|Password01|
+    |serenitytraining@gmail.com|Password01|
