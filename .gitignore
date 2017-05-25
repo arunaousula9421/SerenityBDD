@@ -1,4 +1,5 @@
 BDDSerenity/target/*
+BDDSerenity/.idea/
 .idea
 *.iml
 *.xml
