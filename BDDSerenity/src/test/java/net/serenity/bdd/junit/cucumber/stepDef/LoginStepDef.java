@@ -12,7 +12,7 @@ import net.thucydides.core.annotations.Steps;
  */
 public class LoginStepDef extends GenericDeclarationClass {
 
-    LoginData dp = new LoginData();
+    LoginData dp= new LoginData();
 
     @Steps
     LoginTestSteps LT_steps;

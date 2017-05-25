@@ -25,7 +25,7 @@ public class GenericHookClass extends GenericDeclarationClass {
         }
         prop = new Properties();
         prop.load(new FileInputStream(ConfigPath));
-        //System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 
         //FirefoxProfile myProfile = new ProfilesIni().getProfile("SerenityBDD");
         //		myprofile.setPreference("network.proxy.type", 5);

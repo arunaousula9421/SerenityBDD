@@ -3,6 +3,9 @@ package net.serenity.bdd.junit.cucumber.pages;
 import net.serenity.bdd.junit.cucumber.model.LoginData;
 import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.WebElementFacade;
+//import net.serenitybdd.core.pages.WebElementFacadeImpl;
+//import net.serenitybdd.core.pages.WebElementFacade;
+//import org.openqa.selenium.WebElement;
 
 /**
  * Created by arun on 25/05/2017.
@@ -13,13 +16,13 @@ public class LoginPage extends GenericPageObject {
     private WebElementFacade LoginButton;
 
     @FindBy(xpath="//input[@id='login-email']")
-    private WebElementFacade loginEmailField;
+    private WebElementFacade  loginEmailField;
 
     @FindBy(xpath="//input[@id='login-password']")
-    private WebElementFacade loginPasswordField;
+    private WebElementFacade  loginPasswordField;
 
     @FindBy(xpath="//button[@type='submit']")
-    private WebElementFacade loginSubmitButton;
+    private WebElementFacade  loginSubmitButton;
 
 
     public void openHomePage_PO(){
@@ -27,7 +30,6 @@ public class LoginPage extends GenericPageObject {
     }
 
     public void performLogin(LoginData dp) {
-        System.out.println("Logging in using:"+  dp.getUserName() +";" + dp.getPassword());
         LoginButton.click();
         loginEmailField.sendKeys(dp.getUserName());
         loginPasswordField.sendKeys(dp.getPassword());
