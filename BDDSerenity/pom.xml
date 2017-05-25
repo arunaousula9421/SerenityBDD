@@ -15,6 +15,9 @@
         <serenity.version>1.4.1-rc.2</serenity.version> <!-- https://bintray.com/serenity/maven/serenity-core/ -->
         <serenity.maven.version>1.4.1-rc.2</serenity.maven.version>
         <serenity.cucumber.version>1.1.35</serenity.cucumber.version> <!-- https://bintray.com/serenity/maven/serenity-cucumber/ -->
+        <junit.threadCount>1</junit.threadCount>
+        <junit.parallel></junit.parallel>
+
     </properties>
 
     <!-- Define the Bintray repos for convenience -->
@@ -160,6 +163,8 @@
                 <version>2.20</version>
                 <configuration>
                     <skip>true</skip>
+                    <threadCount>${junit.threadCount}</threadCount>
+                    <parallel>${junit.parallel}</parallel>
                 </configuration>
             </plugin>
             <plugin>
@@ -252,6 +257,14 @@
             <properties>
                 <webdriver.driver>chrome</webdriver.driver>
                 <webdriver.chrome.driver>chromedriver</webdriver.chrome.driver>
+            </properties>
+        </profile>
+
+        <profile>
+            <id>parallel</id>
+            <properties>
+                <junit.threadCount>2</junit.threadCount>
+                <junit.parallel>classes</junit.parallel>
             </properties>
         </profile>
     </profiles>

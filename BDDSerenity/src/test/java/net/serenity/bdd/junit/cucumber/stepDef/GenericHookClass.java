@@ -4,8 +4,10 @@ import cucumber.api.Scenario;
 import cucumber.api.java.Before;
 import net.serenitybdd.core.Serenity;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.firefox.internal.ProfilesIni;
+import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -25,7 +27,8 @@ public class GenericHookClass extends GenericDeclarationClass {
         }
         prop = new Properties();
         prop.load(new FileInputStream(ConfigPath));
-        System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+
+
 
         //FirefoxProfile myProfile = new ProfilesIni().getProfile("SerenityBDD");
         //		myprofile.setPreference("network.proxy.type", 5);
