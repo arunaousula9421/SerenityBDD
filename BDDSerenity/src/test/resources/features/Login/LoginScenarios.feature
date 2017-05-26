@@ -1,3 +1,4 @@
+@Login
 Feature: Login into the Mail.com
   As a Valid User
   I want to login to the mail
@@ -10,5 +11,5 @@ Feature: Login into the Mail.com
     Then I should see my Account Mails.
 
     Examples: Valid Data
-    |userName|password|
-    |serenitytraining@gmail.com|Password01|
+      |userName                  |password  |
+      |serenitytraining          |Password01|

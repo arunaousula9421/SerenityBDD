@@ -35,9 +35,5 @@ public class LoginPage extends GenericPageObject {
         loginEmailField.sendKeys(dp.getUserName());
         loginPasswordField.sendKeys(dp.getPassword());
         loginSubmitButton.click();
-
     }
-
-
-
 }

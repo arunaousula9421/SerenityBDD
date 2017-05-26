@@ -30,7 +30,7 @@ public class GenericHookClass extends GenericDeclarationClass {
 
 
 
-        //FirefoxProfile myProfile = new ProfilesIni().getProfile("SerenityBDD");
+        FirefoxProfile myProfile = new ProfilesIni().getProfile("SerenityBDD");
         //		myprofile.setPreference("network.proxy.type", 5);
         // 		myprofile.setPreference("browser.cache.disk.enable", false);
         // 		myprofile.setPreference("browser.cache.memory.enable", false);
@@ -40,7 +40,7 @@ public class GenericHookClass extends GenericDeclarationClass {
         // 		myprofile.setPreference("dom.max_script_run_time", 30);
         // 		myprofile.setPreference("network.http.connection-timeout", 10);
         // 		myprofile.setPreference("network.http.connection-retry-timeout", 10);
-        //Serenity.useFirefoxProfile(myProfile);
+        Serenity.useFirefoxProfile(myProfile);
 
 
     }
