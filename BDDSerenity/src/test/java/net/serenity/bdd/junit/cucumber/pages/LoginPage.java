@@ -2,7 +2,8 @@ package net.serenity.bdd.junit.cucumber.pages;
 
 import net.serenity.bdd.junit.cucumber.model.LoginData;
 import net.serenitybdd.core.annotations.findby.FindBy;
-import net.serenitybdd.core.pages.WebElementFacade;
+//import net.serenitybdd.core.pages.WebElementFacade;
+import net.thucydides.core.annotations.DefaultUrl;
 import org.openqa.selenium.WebElement;
 //import net.serenitybdd.core.pages.WebElementFacadeImpl;
 //import net.serenitybdd.core.pages.WebElementFacade;
@@ -11,6 +12,7 @@ import org.openqa.selenium.WebElement;
 /**
  * Created by arun on 25/05/2017.
  */
+@DefaultUrl("http://mail.com")
 public class LoginPage extends GenericPageObject {
 
     @FindBy(xpath="//a[@id='login-button']")

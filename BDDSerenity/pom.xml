@@ -14,11 +14,11 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <serenity.version>1.4.1-rc.2</serenity.version> <!-- https://bintray.com/serenity/maven/serenity-core/ -->
         <serenity.maven.version>1.4.1-rc.2</serenity.maven.version>
-        <serenity.cucumber.version>1.1.35</serenity.cucumber.version> <!-- https://bintray.com/serenity/maven/serenity-cucumber/ -->
-        <junit.threadCount>1</junit.threadCount>
-        <junit.parallel></junit.parallel>
-
+        <serenity.cucumber.version>1.1.35
+        </serenity.cucumber.version> <!-- https://bintray.com/serenity/maven/serenity-cucumber/ -->
+        <aspectj.version>1.8.4</aspectj.version>
     </properties>
+
 
     <!-- Define the Bintray repos for convenience -->
     <repositories>
@@ -26,6 +26,10 @@
             <id>serenity</id>
             <name>bintray</name>
             <url>http://dl.bintray.com/serenity/maven</url>
+        </repository>
+        <repository>
+            <id>sonatype-releases</id>
+            <url>https://oss.sonatype.org/content/repositories/releases/</url>
         </repository>
     </repositories>
     <pluginRepositories>
@@ -37,6 +41,17 @@
     </pluginRepositories>
 
     <dependencies>
+        <dependency>
+            <groupId>ru.yandex.qatools.allure</groupId>
+            <artifactId>allure-cucumber-jvm-adaptor</artifactId>
+            <version>1.6.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+            <version>1.8.10</version>
+        </dependency>
 
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
@@ -46,116 +61,129 @@
 
         <dependency>
             <groupId>net.serenity-bdd</groupId>
+            <artifactId>serenity-jira-requirements-provider</artifactId>
+            <version>1.1.2-rc.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>net.serenity-bdd</groupId>
+            <artifactId>serenity-jira-plugin</artifactId>
+            <version>1.1.2-rc.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>net.serenity-bdd</groupId>
             <artifactId>serenity-core</artifactId>
             <version>${serenity.version}</version>
         </dependency>
+
         <dependency>
             <groupId>net.serenity-bdd</groupId>
             <artifactId>serenity-junit</artifactId>
             <version>${serenity.version}</version>
         </dependency>
+
         <dependency>
             <groupId>net.serenity-bdd</groupId>
             <artifactId>serenity-rest-assured</artifactId>
             <version>${serenity.version}</version>
         </dependency>
+
         <dependency>
             <groupId>net.serenity-bdd</groupId>
             <artifactId>serenity-cucumber</artifactId>
             <version>${serenity.cucumber.version}</version>
         </dependency>
+
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-simple</artifactId>
             <version>1.8.0-alpha2</version>
         </dependency>
+
         <dependency>
             <groupId>org.codehaus.groovy</groupId>
             <artifactId>groovy-all</artifactId>
             <version>2.5.0-alpha-1</version>
         </dependency>
+
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.12</version>
             <scope>test</scope>
         </dependency>
+
         <dependency>
             <groupId>com.googlecode.lambdaj</groupId>
             <artifactId>lambdaj</artifactId>
             <version>2.3.3</version>
         </dependency>
+
         <dependency>
             <groupId>org.assertj</groupId>
             <artifactId>assertj-core</artifactId>
             <version>3.8.0</version>
             <scope>test</scope>
         </dependency>
+
         <dependency>
             <groupId>net.serenity-bdd</groupId>
             <artifactId>serenity-jira-requirements-provider</artifactId>
             <version>1.1.2-rc.1</version>
         </dependency>
 
-        <!-- <dependency> <groupId>net.serenity-bdd</groupId>
-        <artifactId>serenity-jira-plugin</artifactId> <version>1.1.2-rc.1</version>
-        </dependency> -->
-
-        <!-- Spring dependency for Rest Template added by
-                   <dependency>
-               <groupId>org.apache.poi</groupId>
-               <artifactId>poi-ooxml-schemas</artifactId>
-               <version>3.12</version>
-               <exclusions>
-                   <exclusion>
-                       <artifactId>xml-apis</artifactId>
-                       <groupId>xml-apis</groupId>
-                   </exclusion>
-               </exclusions>
-           </dependency>
-         <dependency>
-               <groupId>commons-configuration</groupId>
-               <artifactId>commons-configuration</artifactId>
-               <version>1.10</version>
-           </dependency>
-           <dependency>
-               <groupId>commons-beanutils</groupId>
-               <artifactId>commons-beanutils</artifactId>
-               <version>1.9.2</version>
-           </dependency>
-           <dependency>
-               <groupId>org.apache.poi</groupId>
-               <artifactId>poi-ooxml</artifactId>
-               <version>3.9</version>
-           </dependency>
-           <dependency>
-               <groupId>org.apache.poi</groupId>
-               <artifactId>ooxml-schemas</artifactId>
-               <version>1.0</version>
-           </dependency> -->
-
+        <dependency>
+            <groupId>net.masterthought</groupId>
+            <artifactId>cucumber-reporting</artifactId>
+            <version>3.7.0</version>
+        </dependency>
     </dependencies>
+
     <build>
         <plugins>
 
-            <!-- <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-enforcer-plugin</artifactId>
-            <version>1.4</version>
-            <executions>
-            <execution>
-            <id>enforce</id>
-            <configuration>
-            <rules>
-            <requireUpperBoundDeps />
-            </rules>
-            </configuration>
-            <goals>
-            <goal>enforce</goal>
-            </goals>
-            </execution>
-            </executions>
-            </plugin> -->
+            <plugin>
+                <groupId>net.masterthought</groupId>
+                <artifactId>maven-cucumber-reporting</artifactId>
+                <version>3.7.0</version>
+                <executions>
+                    <execution>
+                        <id>execution</id>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                        <configuration>
+                            <projectName>cucumber-jvm-example</projectName>
+                            <outputDirectory>target/cucumber-html-reports</outputDirectory>
+                            <cucumberOutput>target/json/cucumber.json</cucumberOutput>
+                            <parallelTesting>false</parallelTesting>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-enforcer-plugin</artifactId>
+                <version>1.4.1</version>
+                <executions>
+                    <execution>
+                        <id>enforce-versions</id>
+                        <goals>
+                            <goal>enforce</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <rules>
+                        <AlwaysPass />
+                    </rules>
+                    <fail>true</fail>
+                </configuration>
+            </plugin>
 
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -163,20 +191,18 @@
                 <version>2.20</version>
                 <configuration>
                     <skip>true</skip>
-                    <threadCount>${junit.threadCount}</threadCount>
-                    <parallel>${junit.parallel}</parallel>
                 </configuration>
             </plugin>
+
             <plugin>
                 <artifactId>maven-failsafe-plugin</artifactId>
                 <version>2.20</version>
                 <configuration>
                     <includes>
                         <include>**/junit/cucumber/**</include>
-
                     </includes>
                     <reuseForks>true</reuseForks>
-                    <!--<forkCount>2</forkCount> -->
+                    <forkCount>2</forkCount>
                     <argLine>-Xmx1024m -XX:MaxPermSize=256m</argLine>
                 </configuration>
                 <executions>
@@ -188,6 +214,7 @@
                     </execution>
                 </executions>
             </plugin>
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -197,6 +224,7 @@
                     <target>1.8</target>
                 </configuration>
             </plugin>
+
             <plugin>
                 <groupId>net.serenity-bdd.maven.plugins</groupId>
                 <artifactId>serenity-maven-plugin</artifactId>
@@ -213,39 +241,11 @@
                         </goals>
                     </execution>
                 </executions>
-                <dependencies>
-
-                    <!-- <dependency>
-                    <groupId>net.serenity-bdd</groupId>
-                    <artifactId>serenity-core</artifactId>
-                    <version>${serenity.version}</version>
-                    <dependencies>  -->
-
-                    <dependency>
-                        <groupId>net.serenity-bdd</groupId>
-                        <artifactId>serenity-jira-requirements-provider</artifactId>
-                        <version>1.1.2-rc.1</version>
-                    </dependency>
-                    <dependency>
-                        <groupId>net.serenity-bdd</groupId>
-                        <artifactId>serenity-jira-plugin</artifactId>
-                        <version>1.1.2-rc.1</version>
-                    </dependency>
-
-
-                    <!-- <dependency>
-                    <groupId>net.masterthought</groupId>
-                    <artifactId>cucumber-reporting</artifactId>
-                    <version>2.5.0</version>
-                    </dependency> -->
-
-                </dependencies>
-
             </plugin>
         </plugins>
     </build>
-    <profiles>
 
+    <profiles>
         <profile>
             <id>firefox</id>
             <properties>
@@ -257,14 +257,6 @@
             <properties>
                 <webdriver.driver>chrome</webdriver.driver>
                 <webdriver.chrome.driver>chromedriver</webdriver.chrome.driver>
-            </properties>
-        </profile>
-
-        <profile>
-            <id>parallel</id>
-            <properties>
-                <junit.threadCount>2</junit.threadCount>
-                <junit.parallel>classes</junit.parallel>
             </properties>
         </profile>
     </profiles>

@@ -57,6 +57,5 @@ public class ComposeData {
         this.toAddress = toAddress;
         this.subject = subject;
         this.body = body;
-
     }
 }

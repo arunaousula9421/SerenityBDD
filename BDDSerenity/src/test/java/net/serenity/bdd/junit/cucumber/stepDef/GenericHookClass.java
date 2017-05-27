@@ -20,17 +20,18 @@ import java.util.Properties;
 public class GenericHookClass extends GenericDeclarationClass {
 
     @Before
-    public void beforeTest(Scenario scenario) throws FileNotFoundException, IOException{
+    public void beforeTest(Scenario scenario) throws IOException{
 
         for(String s:scenario.getSourceTagNames()){
             System.out.println("Tag: " +s);
         }
         prop = new Properties();
         prop.load(new FileInputStream(ConfigPath));
+        System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
 
 
 
-        FirefoxProfile myProfile = new ProfilesIni().getProfile("SerenityBDD");
+        //FirefoxProfile myProfile = new ProfilesIni().getProfile("SerenityBDD");
         //		myprofile.setPreference("network.proxy.type", 5);
         // 		myprofile.setPreference("browser.cache.disk.enable", false);
         // 		myprofile.setPreference("browser.cache.memory.enable", false);
@@ -40,8 +41,7 @@ public class GenericHookClass extends GenericDeclarationClass {
         // 		myprofile.setPreference("dom.max_script_run_time", 30);
         // 		myprofile.setPreference("network.http.connection-timeout", 10);
         // 		myprofile.setPreference("network.http.connection-retry-timeout", 10);
-        Serenity.useFirefoxProfile(myProfile);
-
+        //Serenity.useFirefoxProfile(myProfile);
 
     }
 

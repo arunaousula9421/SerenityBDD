@@ -1,4 +1,4 @@
-@Login
+@Login @Smoke
 Feature: Login into the Mail.com
   As a Valid User
   I want to login to the mail
@@ -10,6 +10,7 @@ Feature: Login into the Mail.com
     When I perform Login Action
     Then I should see my Account Mails.
 
+    @prod
     Examples: Valid Data
       |userName                  |password  |
       |serenitytraining          |Password01|
