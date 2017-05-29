@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
  * Created by arun on 24/05/2017.
  */
 @RunWith(CucumberWithSerenity.class)
-@CucumberOptions(features = "src/test/resources/features",
+@CucumberOptions(features = "src/test/resources/features/DaftLogin/",
         plugin={"pretty","html:target/cucumber","json:target/json/cucumber.json"},
         tags={"@Smoke", "@prod"})
 public class Runner {

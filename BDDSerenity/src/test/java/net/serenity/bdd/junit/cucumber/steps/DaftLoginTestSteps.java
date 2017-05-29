@@ -37,6 +37,7 @@ public class DaftLoginTestSteps extends ScenarioSteps {
         DLP.verifyLoginPage();
     }
 
+    //Valid Details
    @Step
     public void sendUsername(DaftLoginData daftComposerData){
         DLP.enterUsername(daftComposerData);
@@ -55,5 +56,22 @@ public class DaftLoginTestSteps extends ScenarioSteps {
     @Step
     public void savedPropertiesIsPresent(){
         DLP.savedProperties();
+    }
+
+
+ //Invalid Details
+    @Step
+    public void sendInvalidUsername(DaftLoginData daftComposerData){
+        DLP.enterInvalidUsername(daftComposerData);
+    }
+
+    @Step
+    public  void sendInvalidPassword(DaftLoginData daftComposerData){
+        DLP.enterInvalidPassword(daftComposerData);
+    }
+
+    @Step
+    public void errorMessageIsPresent(){
+        DLP.errorMessageVisible();
     }
 }

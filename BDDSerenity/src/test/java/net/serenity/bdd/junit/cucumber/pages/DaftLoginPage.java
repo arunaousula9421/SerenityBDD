@@ -33,6 +33,9 @@ public class DaftLoginPage extends GenericPageObject {
     @FindBy(xpath = "//li/a[contains(text(),'Saved properties')]")
     private WebElement savedPropertiesOption;
 
+    @FindBy(xpath = "//div/div[@class='warning']")
+    private WebElement errorMessage;
+
 
 
     public void openDaftPage_PO(){
@@ -55,6 +58,7 @@ public class DaftLoginPage extends GenericPageObject {
         signInPage.isDisplayed();
     }
 
+    //Valid Details
     public void enterUsername(DaftLoginData daftComposerData){
         usernameField.click();
         usernameField.sendKeys(daftComposerData.getUsername());
@@ -70,5 +74,20 @@ public class DaftLoginPage extends GenericPageObject {
 
     public void savedProperties(){
         Assert.assertTrue(savedPropertiesOption.isDisplayed());
+    }
+
+
+    //Invalid Details
+    public void enterInvalidUsername(DaftLoginData daftComposerData){
+        usernameField.click();
+        usernameField.sendKeys(daftComposerData.getUsernameInvalid());
+    }
+
+    public  void enterInvalidPassword(DaftLoginData daftComposerData){
+        passwordField.sendKeys(daftComposerData.getPasswordInvalid());
+    }
+
+    public void errorMessageVisible(){
+        Assert.assertTrue(errorMessage.isDisplayed());
     }
 }
