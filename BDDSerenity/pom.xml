@@ -228,8 +228,35 @@
                     </execution>
                 </executions>
             </plugin>
+
+            <plugin>
+                <executions>
+                    <execution>
+                        <id>MSG inicio deploy</id>
+                        <phase>validate</phase>
+                        <goals>
+                            <goal>slackmessage</goal>
+                        </goals>
+                        <configuration>
+                        <apiHash>T082VSGE4/B5KC5UY74/QDw90YGfgh809QhQWoPZDfAI</apiHash>
+                        <username>Arunkumar Aousula</username>
+                        <!-- a channel or a @devmate -->
+                        <channel>Arunkumar Aousula</channel>
+                        <message>Hello Serenity</message>
+                        <fields>
+                            <field>
+                                <value>Test Results:</value>
+                            </field>
+                        </fields>
+                    </execution>
+                </executions>
+            </plugin>
+
         </plugins>
+
+        
     </build>
+
     
     <profiles>
         <profile>
