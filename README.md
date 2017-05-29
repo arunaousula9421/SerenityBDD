@@ -1,2 +1,2 @@
 # SerenityBDD
-Selenium + BDD + Serenity + Jira + Jenkins + Maven
+Selenium + BDD + Serenity + Jira + Maven + JUnit
