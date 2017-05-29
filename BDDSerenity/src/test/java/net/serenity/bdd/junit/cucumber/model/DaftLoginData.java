@@ -5,6 +5,7 @@ package net.serenity.bdd.junit.cucumber.model;
  */
 public class DaftLoginData {
 
+    //Valid Details
     private String username;
 
     public String getUsername() {
@@ -26,6 +27,7 @@ public class DaftLoginData {
     }
 
 
+    //Invalid Details
     private String usernameInvalid;
 
     public String getUsernameInvalid() {

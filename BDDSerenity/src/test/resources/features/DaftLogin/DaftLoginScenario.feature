@@ -25,6 +25,11 @@ Feature: Login into the Daft.ie
       | username    | password     |
       | arunaousula | arunkumar123 |
 
+  @staging
+    Examples: Valid Data
+      |username     |password    |
+      |arunaousula  |arunkumar123|
+
 
   Scenario Outline: Unsuccessful Daft Login
 
@@ -36,10 +41,11 @@ Feature: Login into the Daft.ie
 
   @prod
     Examples:
-      | usernameInvalid    | passwordInvalid    | error_message   |
-      | invalid     | invalid      | Incorrect username or password|
+      | usernameInvalid    | passwordInvalid    | error_message                 |
+      | invalid            | invalid            | Incorrect username or password|
 
   @staging
-  Examples: Valid Data
-  |username                  |password    |
-  |arunaousula               |arunkumar123|
+    Examples:
+      | usernameInvalid    | passwordInvalid    | error_message                 |
+      | invalid            | invalid            | Incorrect username or password|
+
