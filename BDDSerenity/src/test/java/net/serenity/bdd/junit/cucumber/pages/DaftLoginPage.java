@@ -9,7 +9,7 @@ import org.openqa.selenium.WebElement;
 /**
  * Created by arunkumar on 26-05-2017.
  */
-@DefaultUrl("http://daft.ie")
+@DefaultUrl("http://192.168.50.5/")
 public class DaftLoginPage extends GenericPageObject {
 
     @FindBy(xpath = "//img[@class='main-logo ng-scope']")
