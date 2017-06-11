@@ -1,0 +1,175 @@
+288  DEBUG n.t.c.u.PropertiesFileLocalPreferences: LOADING LOCAL PROPERTIES FROM C:\Users\arunkumar\Desktop\SerenityBDD\BDDSerenity\serenity.properties 
+288  DEBUG n.t.c.u.PropertiesFileLocalPreferences: LOADING LOCAL PROPERTIES FROM C:\Users\arunkumar\Desktop\SerenityBDD\BDDSerenity\serenity.properties 
+288  DEBUG n.t.c.u.PropertiesFileLocalPreferences: LOADING LOCAL PROPERTIES FROM C:\Users\arunkumar\Desktop\SerenityBDD\BDDSerenity\serenity.properties 
+288  INFO  n.t.c.u.PropertiesFileLocalPreferences: serenity.browser,width=1200
+311  INFO  n.t.c.u.PropertiesFileLocalPreferences: serenity.dry.run=false
+311  INFO  n.t.c.u.PropertiesFileLocalPreferences: serenity.verbose.screenshots=true
+311  INFO  n.t.c.u.PropertiesFileLocalPreferences: serenity.report.show.manual.tests=true
+312  INFO  n.t.c.u.PropertiesFileLocalPreferences: serenity.jira.workflow.active=true
+312  INFO  n.t.c.u.PropertiesFileLocalPreferences: serenity.project.name=Serenity BDD Cucumber Project
+313  INFO  n.t.c.u.PropertiesFileLocalPreferences: jira.project=Serenity
+313  INFO  n.t.c.u.PropertiesFileLocalPreferences: serenity.project.key=SER
+313  INFO  n.t.c.u.PropertiesFileLocalPreferences: serenity.browser,height=1500
+313  INFO  n.t.c.u.PropertiesFileLocalPreferences: serenity.take.screenshots=FOR_EACH_ACTION
+313  INFO  n.t.c.u.PropertiesFileLocalPreferences: serenity.console.colors=true
+314  INFO  n.t.c.u.PropertiesFileLocalPreferences: jira.password=Arunkumar123
+314  INFO  n.t.c.u.PropertiesFileLocalPreferences: serenity.requirement.types=epic, feature
+315  INFO  n.t.c.u.PropertiesFileLocalPreferences: serenity.use.unique.browser=false
+315  INFO  n.t.c.u.PropertiesFileLocalPreferences: jira.url=http://localhost:8080
+315  INFO  n.t.c.u.PropertiesFileLocalPreferences: serenity.public.url=http://localhost:9090/job/Serenity/HTML_Report/
+316  INFO  n.t.c.u.PropertiesFileLocalPreferences: webdriver.chrome.driver=chromedriver.exe
+316  INFO  n.t.c.u.PropertiesFileLocalPreferences: serenity.verbose.steps=true
+316  INFO  n.t.c.u.PropertiesFileLocalPreferences: jira.username=arunaousula
+317  INFO  n.t.c.u.PropertiesFileLocalPreferences: serenity.test.root=net.serenity.bdd.junit.cucumber
+319  INFO  n.t.c.u.PropertiesFileLocalPreferences: webdriver.geckodriver.driver=geckodriver
+319  INFO  n.t.c.u.PropertiesFileLocalPreferences: webdriver.wait.for.timeout=50000
+320  INFO  n.t.c.u.PropertiesFileLocalPreferences: webdriver.timeouts.implicitlywait=50000
+320  INFO  n.t.c.u.PropertiesFileLocalPreferences: serenity.jira.workflow=jira-workflow.groovy
+747  INFO  net.serenitybdd.core.Serenity: [96m
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+-------------------------------------------------------------------------------------
+[0m
+748  DEBUG n.t.core.steps.StepEventBus: Test suite started for story net.thucydides.core.model.Story@98dc4708
+771  DEBUG n.t.c.u.PropertiesFileLocalPreferences: LOADING LOCAL PROPERTIES FROM C:\Users\arunkumar\Desktop\SerenityBDD\BDDSerenity\serenity.properties 
+775  DEBUG n.t.c.u.PropertiesFileLocalPreferences: LOADING LOCAL PROPERTIES FROM C:\Users\arunkumar\Desktop\SerenityBDD\BDDSerenity\serenity.properties 
+775  DEBUG n.t.c.u.PropertiesFileLocalPreferences: LOADING LOCAL PROPERTIES FROM C:\Users\arunkumar\Desktop\SerenityBDD\BDDSerenity\serenity.properties 
+804  DEBUG n.t.c.u.PropertiesFileLocalPreferences: LOADING LOCAL PROPERTIES FROM C:\Users\arunkumar\Desktop\SerenityBDD\BDDSerenity\serenity.properties 
+804  DEBUG n.t.c.u.PropertiesFileLocalPreferences: LOADING LOCAL PROPERTIES FROM C:\Users\arunkumar\Desktop\SerenityBDD\BDDSerenity\serenity.properties 
+805  DEBUG n.t.c.u.PropertiesFileLocalPreferences: LOADING LOCAL PROPERTIES FROM C:\Users\arunkumar\Desktop\SerenityBDD\BDDSerenity\serenity.properties 
+806  INFO  n.t.c.u.PropertiesFileLocalPreferences: serenity.browser,width=1200
+806  INFO  n.t.c.u.PropertiesFileLocalPreferences: serenity.dry.run=false
+806  INFO  n.t.c.u.PropertiesFileLocalPreferences: serenity.verbose.screenshots=true
+807  INFO  n.t.c.u.PropertiesFileLocalPreferences: serenity.report.show.manual.tests=true
+807  INFO  n.t.c.u.PropertiesFileLocalPreferences: serenity.jira.workflow.active=true
+807  INFO  n.t.c.u.PropertiesFileLocalPreferences: serenity.project.name=Serenity BDD Cucumber Project
+807  INFO  n.t.c.u.PropertiesFileLocalPreferences: jira.project=Serenity
+807  INFO  n.t.c.u.PropertiesFileLocalPreferences: serenity.project.key=SER
+807  INFO  n.t.c.u.PropertiesFileLocalPreferences: serenity.browser,height=1500
+808  INFO  n.t.c.u.PropertiesFileLocalPreferences: serenity.take.screenshots=FOR_EACH_ACTION
+808  INFO  n.t.c.u.PropertiesFileLocalPreferences: serenity.console.colors=true
+808  INFO  n.t.c.u.PropertiesFileLocalPreferences: jira.password=Arunkumar123
+808  INFO  n.t.c.u.PropertiesFileLocalPreferences: serenity.requirement.types=epic, feature
+809  INFO  n.t.c.u.PropertiesFileLocalPreferences: serenity.use.unique.browser=false
+809  INFO  n.t.c.u.PropertiesFileLocalPreferences: jira.url=http://localhost:8080
+809  INFO  n.t.c.u.PropertiesFileLocalPreferences: serenity.public.url=http://localhost:9090/job/Serenity/HTML_Report/
+811  INFO  n.t.c.u.PropertiesFileLocalPreferences: webdriver.chrome.driver=chromedriver.exe
+811  INFO  n.t.c.u.PropertiesFileLocalPreferences: serenity.verbose.steps=true
+811  INFO  n.t.c.u.PropertiesFileLocalPreferences: jira.username=arunaousula
+811  INFO  n.t.c.u.PropertiesFileLocalPreferences: serenity.test.root=net.serenity.bdd.junit.cucumber
+811  INFO  n.t.c.u.PropertiesFileLocalPreferences: webdriver.geckodriver.driver=geckodriver
+812  INFO  n.t.c.u.PropertiesFileLocalPreferences: webdriver.wait.for.timeout=50000
+812  INFO  n.t.c.u.PropertiesFileLocalPreferences: webdriver.timeouts.implicitlywait=50000
+812  INFO  n.t.c.u.PropertiesFileLocalPreferences: serenity.jira.workflow=jira-workflow.groovy
+1116 DEBUG n.t.c.u.PropertiesFileLocalPreferences: LOADING LOCAL PROPERTIES FROM C:\Users\arunkumar\Desktop\SerenityBDD\BDDSerenity\serenity.properties 
+1116 DEBUG n.t.c.u.PropertiesFileLocalPreferences: LOADING LOCAL PROPERTIES FROM C:\Users\arunkumar\Desktop\SerenityBDD\BDDSerenity\serenity.properties 
+1116 DEBUG n.t.c.u.PropertiesFileLocalPreferences: LOADING LOCAL PROPERTIES FROM C:\Users\arunkumar\Desktop\SerenityBDD\BDDSerenity\serenity.properties 
+1524 DEBUG n.s.plugins.jira.JiraUpdater: JIRA LISTENER STATUS
+1524 DEBUG n.s.plugins.jira.JiraUpdater: JIRA URL: http://localhost:8080 
+1524 DEBUG n.s.plugins.jira.JiraUpdater: REPORT URL: http://localhost:9090/job/Serenity/HTML_Report/ 
+1524 DEBUG n.s.plugins.jira.JiraUpdater: WORKFLOW ACTIVE: true 
+1524 DEBUG n.t.core.steps.StepEventBus: Registering custom listener net.serenitybdd.plugins.jira.JiraStepListener@11a7ba62
+1528 INFO  net.serenitybdd.core.Serenity: Test Suite Started: Compose an Email via  Mail.com
+1708 INFO  net.serenitybdd.core.Serenity: 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Success Compose
+-------------------------------------------------------------------(compose-an-email-via--mail.com;success-compose;valid-data;2)
+1746 TRACE n.t.c.r.FileSystemRequirementsTagProvider: Loading requirements from C:\Users\arunkumar\Desktop\SerenityBDD\BDDSerenity\target\test-classes\features
+1755 TRACE n.t.c.r.FileSystemRequirementsTagProvider: Loading requirements from C:\Users\arunkumar\Desktop\SerenityBDD\BDDSerenity\target\test-classes\features\Compose
+1776 TRACE n.t.c.r.FileSystemRequirementsTagProvider: Loading requirements from C:\Users\arunkumar\Desktop\SerenityBDD\BDDSerenity\target\test-classes\features\DaftLogin
+1788 TRACE n.t.c.r.FileSystemRequirementsTagProvider: Loading requirements from C:\Users\arunkumar\Desktop\SerenityBDD\BDDSerenity\target\test-classes\features\Login
+2199 DEBUG n.t.core.steps.StepInterceptor: STARTING STEP: LoginStepDef.i_perform_Login_Action - openHomePage
+2367 DEBUG n.s.c.w.s.ChromeServicePool: Creating new driver instance with capabilities: Capabilities [{chrome.switches=null, browserName=chrome, chromeOptions=org.openqa.selenium.chrome.ChromeOptions@3836d82d, version=, platform=ANY}]
+16017 DEBUG n.s.core.photography.Darkroom: Opening darkroom
+16018 DEBUG n.s.c.p.DarkroomProcessingLine: Darkroom processing line starting up
+20045 DEBUG n.t.core.steps.StepInterceptor: STEP DONE: openHomePage
+94531 ERROR net.serenitybdd.core.Serenity: [91m
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Success Compose
+---------------------------------------------------------------------[0m
+94547 DEBUG net.serenitybdd.core.Serenity: RELATED ISSUES: SER-2,SER-2
+94651 ERROR net.serenitybdd.core.Serenity: [91mTEST FAILED AT STEP Perform login: net.serenity.bdd.junit.cucumber.model.LoginData@5984feef[0m
+94651 ERROR net.serenitybdd.core.Serenity: Timed out after 50 seconds. Element not found
+94653 DEBUG n.s.plugins.jira.JiraUpdater: WORKFLOW TRANSITIONS: [SUCCESS:[To Do:[In Progress], In Progress:[Done]], FAILURE:[In Progress:[In Progress]]]
+94670 DEBUG n.t.core.reports.ReportService: Reporting formats: [JSON, HTML]
+94674 DEBUG n.t.core.reports.ReportService: Found reporter: net.thucydides.core.reports.xml.XMLTestOutcomeReporter@286090c(format = Optional.of(XML))
+94674 DEBUG n.t.core.reports.ReportService: Found reporter: net.thucydides.core.reports.json.JSONTestOutcomeReporter@31120021(format = Optional.of(JSON))
+94675 DEBUG n.t.core.reports.ReportService: Registering reporter: net.thucydides.core.reports.json.JSONTestOutcomeReporter@31120021
+94716 DEBUG n.t.core.reports.ReportService: Found reporter: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@19b206ee(format = Optional.of(HTML))
+94716 DEBUG n.t.core.reports.ReportService: Registering reporter: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@19b206ee
+94764 DEBUG n.t.core.reports.ReportService: Generating reports for 1 test outcomes using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@31120021
+94764 DEBUG n.t.c.r.j.JUnitXMLOutcomeReporter: GENERATING JUNIT REPORTS
+94780 DEBUG n.t.c.r.j.JUnitXMLOutcomeReporter: GENERATING JUNIT REPORT SERENITY-JUNIT-fd88bbce59123d5fbd155f6b8a4cb39a308986bd5dcfcc5f3da391f82fe58e96.xml using temporary file target\site\serenity\SERENITY-JUNIT-fd88bbce59123d5fbd155f6b8a4cb39a308986bd5dcfcc5f3da391f82fe58e96.xml57301c46-93ce-4675-bd1f-c44d558b699f
+94780 DEBUG n.t.core.reports.ReportService: Processing test outcome Compose an Email via  Mail.com:Success Compose
+94780 DEBUG n.t.core.reports.ReportService: net.thucydides.core.reports.json.JSONTestOutcomeReporter@31120021: Generating report for test outcome: Compose an Email via  Mail.com:Success Compose
+94780 INFO  n.t.c.r.j.JSONTestOutcomeReporter: Generating JSON report for Success Compose to file C:\Users\arunkumar\Desktop\SerenityBDD\BDDSerenity\target\site\serenity\fd88bbce59123d5fbd155f6b8a4cb39a308986bd5dcfcc5f3da391f82fe58e96.json (using temp file C:\Users\arunkumar\Desktop\SerenityBDD\BDDSerenity\target\site\serenity\fd88bbce59123d5fbd155f6b8a4cb39a308986bd5dcfcc5f3da391f82fe58e96.json14d94699-ed76-45af-9e87-1433562fda4f)
+94825 DEBUG n.t.core.reports.ReportService: Processing test outcome Compose an Email via  Mail.com:Success Compose done
+95025 DEBUG n.t.core.reports.ReportService: Reports generated in: 260 ms
+95025 DEBUG n.t.core.reports.ReportService: Generating reports for 1 test outcomes using: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@19b206ee
+95026 DEBUG n.t.c.r.j.JUnitXMLOutcomeReporter: GENERATING JUNIT REPORTS
+95026 DEBUG n.t.c.r.j.JUnitXMLOutcomeReporter: GENERATING JUNIT REPORT SERENITY-JUNIT-fd88bbce59123d5fbd155f6b8a4cb39a308986bd5dcfcc5f3da391f82fe58e96.xml using temporary file target\site\serenity\SERENITY-JUNIT-fd88bbce59123d5fbd155f6b8a4cb39a308986bd5dcfcc5f3da391f82fe58e96.xml9697fbed-b857-460b-a266-9d02eab291cb
+95027 DEBUG n.t.core.reports.ReportService: Processing test outcome Compose an Email via  Mail.com:Success Compose
+95027 DEBUG n.t.core.reports.ReportService: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@19b206ee: Generating report for test outcome: Compose an Email via  Mail.com:Success Compose
+95028 DEBUG n.t.c.r.h.HtmlAcceptanceTestReporter: GENERATE TEST OUTCOME REPORT FOR Success Compose in fd88bbce59123d5fbd155f6b8a4cb39a308986bd5dcfcc5f3da391f82fe58e96
+95047 DEBUG n.t.c.u.PropertiesFileLocalPreferences: LOADING LOCAL PROPERTIES FROM C:\Users\arunkumar\Desktop\SerenityBDD\BDDSerenity\serenity.properties 
+95047 DEBUG n.t.c.u.PropertiesFileLocalPreferences: LOADING LOCAL PROPERTIES FROM C:\Users\arunkumar\Desktop\SerenityBDD\BDDSerenity\serenity.properties 
+95047 DEBUG n.t.c.u.PropertiesFileLocalPreferences: LOADING LOCAL PROPERTIES FROM C:\Users\arunkumar\Desktop\SerenityBDD\BDDSerenity\serenity.properties 
+95047 DEBUG n.s.p.j.r.JIRARequirementsProvider: JIRA URL: http://localhost:8080
+95051 DEBUG n.s.p.j.r.JIRARequirementsProvider: JIRA project: Serenity
+95051 DEBUG n.s.p.j.r.JIRARequirementsProvider: JIRA user: arunaousula
+95051 TRACE n.t.c.r.RequirementsTagProvider: Reading requirements from net.serenitybdd.plugins.jira.requirements.JIRARequirementsProvider@23c4213c
+95051 DEBUG n.s.p.j.r.JIRARequirementsProvider: Loading root requirements: issuetype = epic and project=Serenity
+95609 DEBUG n.s.p.jira.client.JerseyJiraClient: Count by JQL for issuetype = epic and project=Serenity
+95743 DEBUG n.s.p.j.r.JIRARequirementsProvider: Loading root requirements done: 1
+95744 DEBUG n.s.p.j.r.ConcurrentRequirementsLoader: Loading 1 requirements
+95749 DEBUG n.s.p.j.r.ConcurrentRequirementsLoader: Load children for requirement Compose Email
+95749 DEBUG n.s.p.j.r.JIRARequirementsProvider: Loading child requirements for: Compose Email
+95806 DEBUG n.s.p.j.r.JIRARequirementsProvider: Loading child requirements for Compose Email done: 2
+95808 DEBUG n.s.p.j.r.JIRARequirementsProvider: 2 child requirements loaded in: 59 ms
+95808 DEBUG n.s.p.j.r.JIRARequirementsProvider: Child requirements: [Requirement{name='Failed On Compose Email', type='Bug' parent = 'null', cardNumber='SER-3'}, Requirement{name='Compose Mail', type='Story' parent = 'null', cardNumber='SER-2'}]
+95808 DEBUG n.s.p.j.r.ConcurrentRequirementsLoader: Load children for requirement Compose Email done
+95809 DEBUG n.s.p.j.r.ConcurrentRequirementsLoader: 1 requirements loaded in 65 ms
+95809 DEBUG n.s.p.j.r.ConcurrentRequirementsLoader: Requirements: [Requirement{name='Compose Email', type='Epic' parent = 'null', cardNumber='SER-1'}]
+95809 DEBUG n.t.c.r.RequirementsTagProvider: Requirements found:[Requirement{name='Compose Email', type='Epic' parent = 'null', cardNumber='SER-1'}]
+95809 DEBUG n.s.p.j.r.JIRARequirementsProvider: Find parent requirement in JIRA for Success Compose
+95903 DEBUG n.s.p.j.r.JIRARequirementsProvider: Parent found: IssueSummary{key='SER-2', summary='Compose Mail'}
+95907 DEBUG n.s.p.j.r.JIRARequirementsProvider: Find parent requirement in JIRA for Success Compose
+95907 DEBUG n.s.p.j.r.JIRARequirementsProvider: Parent found: IssueSummary{key='SER-2', summary='Compose Mail'}
+95907 DEBUG n.s.p.j.r.JIRARequirementsProvider: Find parent requirement in JIRA for Success Compose
+95915 DEBUG n.s.p.j.r.JIRARequirementsProvider: Parent found: IssueSummary{key='SER-2', summary='Compose Mail'}
+95927 INFO  n.t.c.r.h.HtmlAcceptanceTestReporter: GENERATING HTML REPORT FOR Compose an Email via  Mail.com:Success Compose in fd88bbce59123d5fbd155f6b8a4cb39a308986bd5dcfcc5f3da391f82fe58e96.html in directory target\site\serenity  
+97079 DEBUG n.t.c.r.h.HtmlAcceptanceTestReporter: Generating report in fd88bbce59123d5fbd155f6b8a4cb39a308986bd5dcfcc5f3da391f82fe58e96.html
+97498 DEBUG n.t.c.r.h.HtmlAcceptanceTestReporter: Generated report fd88bbce59123d5fbd155f6b8a4cb39a308986bd5dcfcc5f3da391f82fe58e96.html in 419 ms
+97498 DEBUG n.t.core.reports.ReportService: Processing test outcome Compose an Email via  Mail.com:Success Compose done
+97498 DEBUG n.t.core.reports.ReportService: Reports generated in: 2472 ms
+97498 DEBUG n.s.core.photography.Darkroom: Closing darkroom
+97498 DEBUG n.s.c.p.DarkroomProcessingLine: Darkroom processing line shutting down
+97498 DEBUG n.s.plugins.jira.JiraUpdater: WORKFLOW TRANSITIONS: [SUCCESS:[To Do:[In Progress], In Progress:[Done]], FAILURE:[In Progress:[In Progress]]]
+97498 INFO  n.s.plugins.jira.JiraUpdater: Updating JIRA issue: Serenity-SER-2
+97498 INFO  n.s.plugins.jira.JiraUpdater: JIRA server: Connection to JIRA instance at http://localhost:8080 with user arunaousula
+97498 INFO  n.s.plugins.jira.JiraUpdater: Updating comments for issue Serenity-SER-2
+97498 INFO  n.s.plugins.jira.JiraUpdater: WIKI Rendering activated: true
+97641 DEBUG n.s.core.photography.Darkroom: Closing darkroom
+97641 DEBUG n.s.plugins.jira.JiraUpdater: WORKFLOW TRANSITIONS: [SUCCESS:[To Do:[In Progress], In Progress:[Done]], FAILURE:[In Progress:[In Progress]]]
+97646 INFO  n.s.plugins.jira.JiraUpdater: Updating JIRA issue: Serenity-SER-2
+97646 INFO  n.s.plugins.jira.JiraUpdater: JIRA server: Connection to JIRA instance at http://localhost:8080 with user arunaousula
+97647 INFO  n.s.plugins.jira.JiraUpdater: Updating comments for issue Serenity-SER-2
+97647 INFO  n.s.plugins.jira.JiraUpdater: WIKI Rendering activated: true

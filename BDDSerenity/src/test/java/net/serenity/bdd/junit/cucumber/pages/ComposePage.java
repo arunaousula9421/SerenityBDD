@@ -2,11 +2,13 @@ package net.serenity.bdd.junit.cucumber.pages;
 
 import net.serenity.bdd.junit.cucumber.model.ComposeData;
 import net.serenitybdd.core.annotations.findby.FindBy;
+import net.thucydides.core.annotations.DefaultUrl;
 import org.openqa.selenium.WebElement;
 
 /**
  * Created by arun on 26/05/2017.
  */
+@DefaultUrl("https://www.mail.com/int/")
 public class ComposePage extends GenericPageObject {
 
     @FindBy(xpath="//a[@title='Compose E-mail']")
