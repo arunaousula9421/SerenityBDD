@@ -23,12 +23,12 @@ Feature: Login into the Daft.ie
     @prod
     Examples:
       | username    | password     |
-      | arunaousula | arunkumar123 |
+      | arunaousula | dsch9421     |
 
   @staging
     Examples: Valid Data
       |username     |password    |
-      |arunaousula  |arunkumar123|
+      |arunaousula  |dsch9421    |
 
 
   Scenario Outline: Unsuccessful Daft Login
